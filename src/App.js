@@ -1,10 +1,13 @@
 import React from "react";
 import './App.css';
-import blackSquare from "./black-square.jpg";
+import blackSquare from "./black-square.png";
 
 function App() {
   return (
-    <img src={blackSquare} alt="Black Square" className="square" />
+    <div className="square-container">
+      <img src={blackSquare} alt="Black Square" title='"Black Square" Kazimir Malevich' className="square" />
+      <p className="title">Чёрный квадрат Малевича</p>
+    </div>
   );
 }
 
